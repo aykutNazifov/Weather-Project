@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&display=swap");
+
+body {
+  font-family: "Fredoka", sans-serif;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(8, 8, 8, 0.178);
+  overflow: hidden;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  background-color: rgb(200, 240, 223);
+  border-radius: 25px;
+}
+
+.title {
+  font-size: 2.5rem;
+}
+
+input {
+  width: 80%;
+  height: 40px;
+  overflow: hidden;
+  outline: none;
+  border: 0;
+  font-size: 20px;
+  padding: 0 15px;
+  border-radius: 10px;
+}
+
+.iconImg {
+  background-color: blue;
+  border-radius: 20px;
+}
+
+.temp {
+  font-size: 3rem;
+  color: rgb(228, 49, 17);
+}
+
+.region {
+  font-size: 1.7rem;
+}
+
+.day {
+  font-weight: normal;
+}
+
+.google-search {
+  text-decoration: none;
+}
